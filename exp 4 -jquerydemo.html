@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Read/Write Example</title>
+  
+  <!-- jQuery CDN (needed to use jQuery) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $("#readBtn").click(function() {
+        var content = $("#myPara").html();
+        alert("Current content is: " + content);
+      });
+
+      $("#writeBtn").click(function() {
+        $("#myPara").html("Welcome to jQuery!");
+      });
+    });
+  </script>
+</head>
+<body>
+
+  <h2>jQuery Demo</h2>
+
+  <p id="myPara">Hello User!</p>
+
+  <button id="readBtn">Read Content</button>
+  <button id="writeBtn">Change Content</button>
+
+</body>
+</html>
