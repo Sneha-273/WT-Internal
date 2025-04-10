@@ -25,6 +25,36 @@
 - **Tech Used**: HTML, JavaScript  
 
 ---
+---
+
+### ⚡ Experiment 5: Simple Angular Application
+
+- **Files**: `angular-demo.html`  
+- **Run**:  
+  👉 Open `angular-demo.html` in any browser  
+- **Note**: AngularJS used via CDN (no CLI)  
+- **Tech Used**: HTML, AngularJS (1.x)
+
+---
+
+### ⚡ Experiment 6: Basic Node.js Application
+
+- **Files**: `app.js`  
+- **Run**:  
+  1. Open terminal in the folder  
+  2. Run: `node app.js`  
+- **Tech Used**: Node.js  
+
+---
+
+### ⚡ Experiment 7: Node.js Error Handling
+
+- **Files**: `error-handler.js`  
+- **Run**:  
+  1. Open terminal in the folder  
+  2. Run: `node error-handler.js`  
+- **Tech Used**: Node.js  
+
 
 ### ⚡ Experiment 4: jQuery – Read/Write HTML Content
 
