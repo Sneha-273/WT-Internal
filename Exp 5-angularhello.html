@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AngularJS Hello App</title>
+
+  <!-- Load AngularJS from CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      text-align: center;
+      padding-top: 50px;
+    }
+    h2 {
+      color: #6a1b9a;
+    }
+    input {
+      padding: 8px;
+      font-size: 16px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+    }
+    p {
+      font-size: 20px;
+      color: #4a148c;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body ng-app="">
+
+  <h2>Simple AngularJS Demo</h2>
+
+  <p>Enter your name:</p>
+  <input type="text" ng-model="username" placeholder="Type here...">
+
+  <p>Hello, <span ng-bind="username"></span></p>
+
+</body>
+</html>
